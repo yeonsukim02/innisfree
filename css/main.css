@@ -1,0 +1,126 @@
+#header{
+    width: 100%; height: auto;
+    position: relative;
+/*     margin: 32px 29px; */
+}
+.gnb .img{
+    width: 54px; height: 48px;
+}
+.logo .img{
+    width: 100px; height: 100px;
+}
+.util .img{
+    width: 54px; height: 48px;
+}
+.gnb{
+    position: absolute;
+    left: 0;
+}
+.logo{
+    position: absolute;
+    left: 50%; transform: translateX(-50%);
+    
+}
+.util{
+    position: absolute;
+    right: 0;
+}
+.util li{
+    display: block;
+    float: left;
+}
+#header .logo{
+    /* 53 47 */
+    width: 178px; height: 24px;
+    margin: 0 auto;
+    position: absolute;
+    background: url(../img/head_logo.png) no-repeat center/ 178px 24px;
+    top: 50%; left: 50%; transform: translate (-50%, 50%);
+}
+#header::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+#mainVisual{
+    width: 1920px; height: 750px;
+}
+#container{
+}
+
+.cont01{
+    position: relative;
+    width: 1600px;
+    margin: 100% auto;
+    background-color: lightblue;
+}
+.sl_prod>li{
+    width: 400px; height: 600px; 
+    float: left;
+    background-color: #f5f5f7;
+    border: 1px solid #ddd;
+    position
+}
+.sl_prod li{
+    margin-right: 0;
+}
+.sl_prod li .sl_img img{
+    width: 400px; height: 100%;
+}
+
+
+#footer{
+    background-color: #00bc70;
+    width: 100%; height: 500px;
+    min-width: 1920px;
+}
+.footin{
+    height: 100%;
+    margin: 0 auto;
+    padding: 35px;
+    color: rgba(255, 255, 255, .6);
+    background-color: bisque;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    position: relative;
+    /* 35 35*/
+}
+.ft_menu li{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 400;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.ft_info{
+    width: 800px;
+/*     margin-bottom: 40px; */
+    background-color: #00bc70;
+    position: absolute; top: 120px;
+
+}
+.ft_info p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.ft_info span{
+    display: inline-block;
+    margin-right: 25px;
+}
+.ft_info span:last-child{margin-right: 0;}
+.ft_info .ft_txt{margin-bottom: 40px;}
+.ft_info .ft_toss{margin-bottom: 40px;}
+.ft_etc{
+    position: absolute;
+    width: 420px; height: 155px;
+    background-image: url(../img/foot_logo_01.png) no-repeat contain;
+    background-size: 284px 38px;
+    background-color: lightpink;
+    right: 0; top: 120px; 
+}
+.ft_etc .ftime{
+    font-size: 20px;
+    font-weight: 400;
+
+}
